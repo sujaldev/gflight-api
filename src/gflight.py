@@ -3,7 +3,7 @@ import json
 
 
 class API:
-    URL = "https://fly-sujal.herokuapp.com/"
+    URL = "https://flight.sujal.tech/"
     QUERY_URL = URL + "?oci={}&oco={}&dci={}&dco={}&dd={}"
 
     def __init__(self):
